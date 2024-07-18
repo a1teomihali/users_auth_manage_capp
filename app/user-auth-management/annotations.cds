@@ -160,7 +160,7 @@ annotate service.UserAuthorization with @(UI.LineItem #Authorizations: [
         $Type: 'UI.DataField',
         Label: '{i18n>User ID}',
         Value: parent_ID,
-        ![@UI.Hidden]
+//        ![@UI.Hidden]
     },
     {
         $Type: 'UI.DataField',
