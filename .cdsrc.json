@@ -1,0 +1,22 @@
+{
+    "cds": {
+        "requires": {
+            "[development]": {
+                "auth": {
+                    "strategy": "based",
+                    "users": {
+                        "john": {
+                            "roles": [
+                                "UserAdmin"
+                            ]
+                        }
+                    }
+                }
+            },
+            "[production]": {
+                "db": "hana",
+                "auth": "xsuaa"
+            }
+        }
+    }
+}

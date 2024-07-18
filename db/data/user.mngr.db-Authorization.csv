@@ -1,0 +1,21 @@
+ID;name;description
+8030f629-8630-48d8-85e8-e92f81c69d63;Admin;Full administrative access
+382cc178-133a-408b-9dfe-09c564138ed0;Editor;Can edit and update entries
+988e8628-ef4b-435c-a7fb-d0b96a86a3e2;Viewer;Can view details and entries
+732c61e0-68e5-43a6-a3d8-9a49330f9714;Audit;Can perform audits
+f8ded613-b3c2-49eb-afc2-f23dd4852c22;Operator;Can operate machinery
+0af6b53c-de96-4d5a-8041-881f4fd7bee9;HR;Human Resources management access
+9c684d2d-7662-4286-ab2b-d76f7207dd0e;Developer;Can develop and deploy code
+ec2715c1-df28-456b-9d14-cdd6a7440d19;Support;Can provide technical support
+40af1618-6bc9-425f-bb25-83aa6f9934c0;Marketing;Can manage marketing activities
+10553e63-29d5-474b-8b54-5286ab2adf43;Sales;Can manage sales processes
+27b1c769-4230-41b3-823c-f3bb270e90d6;Finance;Can manage financial operations
+8fa09e71-ea6a-4de9-8574-386775251961;Legal;Can manage legal compliance
+1d7a0817-0632-4abb-ac76-5069efdb6f27;Product Management;Can manage product lifecycles
+b2faf48e-b3b1-4f6e-abbf-2d9214349429;Quality Control;Can manage quality control processes
+33e425b3-e1a5-4f63-815f-5b0c02f3658f;Research;Can conduct research activities
+0310dc1e-fbfc-407c-8928-12b8aeb07609;Training;Can conduct training sessions
+5ccddb1e-67f1-4144-ac05-ea847f396f50;Customer Service;Can manage customer service operations
+6e788a22-3d62-4fa3-ae1c-fb9785dd9401;IT Management;Can manage IT resources
+01478640-e90f-4f31-a368-4be3fef439ea;Security;Can manage security protocols
+cde79a3c-c15f-4ef8-a82d-42f7e9a718cd;Procurement;Can manage procurement processes
