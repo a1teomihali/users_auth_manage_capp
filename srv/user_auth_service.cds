@@ -7,6 +7,7 @@ service UserMngrService @(
     requires: 'UserAdmin'
 ) {
 
+    //    @odata.draft.enabled
     entity User as projection on my.User;
 
 }
