@@ -26,7 +26,7 @@ annotate service.User with @(
         },
         {
             $Type: 'UI.DataField',
-            Label: 'User Full Name',
+            Label: 'Full Name',
             Value: displayName
         },
         {

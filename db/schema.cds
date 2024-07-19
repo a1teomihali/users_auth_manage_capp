@@ -22,7 +22,7 @@ entity User : cuid {
     @title: 'Last Name'
     lastName       : String(20);
 
-    @title: 'User Full Name'
+    @title: 'Full Name'
     displayName    : String(40) @mandatory;
 
     @title: 'User Mail'
