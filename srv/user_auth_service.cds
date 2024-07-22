@@ -2,12 +2,9 @@ using {user.mngr.db as my} from '../db/schema';
 
 namespace user.mngr.srv;
 
-service UserMngrService @(
-    path    : '/usr-mngr',
-    requires: 'UserAdmin'
-) {
+service UserMngrService @(path: '/usr-mngr') {
 
-    //    @odata.draft.enabled
+    annotate User with @odata.draft.enabled;
     entity User as projection on my.User;
 
 }

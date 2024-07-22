@@ -14,7 +14,7 @@ entity User : cuid {
     btpId          : String(15);
 
     @title: 'External ID'
-    externalId     : String(15)  @mandatory;
+    externalId     : String(15) @mandatory;
 
     @title: 'First Name'
     firstName      : String(20);
@@ -26,7 +26,7 @@ entity User : cuid {
     displayName    : String(40) @mandatory;
 
     @title: 'User Mail'
-    eMail          : String(30) @mandatory;
+    eMail          : String(30);
 
     @title: 'User IdP ID'
     @UI.HiddenFilter

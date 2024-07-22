@@ -105,13 +105,13 @@ annotate service.User with @(
             {
                 $Type: 'UI.DataField',
                 Label: 'User ID',
-                Value: ID,
+                Value: ID
             },
             {
                 $Type: 'UI.DataField',
                 Label: 'External ID',
                 Value: externalId,
-                ![@UI.Hidden]
+//                ![@UI.Hidden]
             },
             {
                 $Type: 'UI.DataField',
@@ -160,7 +160,7 @@ annotate service.UserAuthorization with @(UI.LineItem #Authorizations: [
         $Type: 'UI.DataField',
         Label: '{i18n>User ID}',
         Value: parent_ID,
-//        ![@UI.Hidden]
+        ![@UI.Hidden]
     },
     {
         $Type: 'UI.DataField',
