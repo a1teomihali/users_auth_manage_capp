@@ -111,7 +111,7 @@ annotate service.User with @(
                 $Type: 'UI.DataField',
                 Label: 'External ID',
                 Value: externalId,
-//                ![@UI.Hidden]
+            //                ![@UI.Hidden]
             },
             {
                 $Type: 'UI.DataField',
